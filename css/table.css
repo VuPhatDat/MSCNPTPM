@@ -1,0 +1,99 @@
+.table {
+    background-color: #fff;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 444px);
+    width: 100%;
+}
+
+tbody::-webkit-scrollbar {
+    width: 4px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    background-color: #b4b3b3;
+    border-radius: 16px;
+}
+
+tbody::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+thead, tr {
+    width: 100%;
+    max-width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+thead td:nth-child(1) {
+    border-top-left-radius: 4px;
+}
+
+thead td:last-child {
+    border-top-right-radius: 4px;
+}
+
+
+td {
+    width: 100%;
+    padding: 0 12px;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    border-bottom: 1px solid var(--color-border-default);
+    border-right: 1px solid var(--color-border-default);
+}
+
+td:last-child {
+    border-right: none !important;
+}
+
+thead td {
+    background-color: #f5f5f5;
+}
+
+.sheet-center {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 60px;
+}
+
+td:nth-child(2) {
+    width: 160px;
+}
+
+td:nth-child(3) {
+    width: 200px;
+}
+
+td:nth-child(4) {
+    width: 160px;
+}
+
+.table-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    border-top: 1px solid var(--color-border-default);
+}
+
+.table-footer span {
+    margin-left: 4px;
+    font-weight: 700;
+}

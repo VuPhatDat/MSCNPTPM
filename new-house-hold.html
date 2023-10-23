@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/new-house-hold.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="icon icon-logo"></div>
+        <h4>Quản lý hộ khẩu</h4>
+    </div>
+    <div class="body">
+        <ul class="navbar" id="dropdown">
+            <li class="navbar-item">
+                <div>
+                    <div class="icon icon-home"></div>
+                    <a href="#" >Trang chủ</a>
+                </div>
+            </li>
+            <li class="navbar-item">
+                <div>
+                    <div class="icon icon-user"></div>
+                    <a href="#" >Nhân khẩu</a>
+                </div>   
+                <ul>
+                    <li><a>Thêm mới nhân khẩu</a></li>
+                    <li><a>Đăng kí tạm trú</a></li>
+                    <li><a>Đăng kí tạm vắng</a></li>
+                    <li><a>Khai tử</a></li>
+                </ul>
+            </li>
+            <li class="navbar-item navbar-item--active">
+                <div>
+                    <div class="icon icon-group"></div>
+                    <a href="#" >Hộ khẩu</a>
+                </div>
+                <ul>
+                    <li><a>Thêm mới hộ khẩu</a></li>
+                    <li><a>Di chuyển hộ khẩu</a></li>
+                    <li><a>Tách hộ khẩu</a></li>
+                </ul>
+            </li>
+            <li class="navbar-item">
+                <div>
+                    <div class="icon icon-report"></div>
+                    <a href="#" >Phản ánh</a>
+                </div>
+            </li>
+            <li class="navbar-item">
+                <div>
+                    <div class="icon icon-chart"></div>
+                    <a href="#">Thống kê</a>
+                </div>
+            </li>
+        </ul>
+        <div class="main-panel">        
+            <div class="content-wrapper">
+              <div class="row" style="width: 190%;">
+                <div class="col-md-6 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Đăng ký tạm trú</h4>
+                      <form class="forms-sample">
+                                <div class="form-group row">
+                                    <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Họ tên</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Nhập họ tên">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Ngày sinh</label>
+                                    <div class="col-sm-9" >
+                                      <input type="date" class="form-control" id="exampleInputEmail2" placeholder="Ngày sinh">
+                                    </div>
+                                  </div>
+                                <div class="form-group row">
+                                  <label for="exampleInputMobile" class="col-sm-3 col-form-label">Nguyên quán</label>
+                                  <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="exampleInputMobile" placeholder="Nguyên quán">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Dân tộc</label>
+                                  <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Dân tộc">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">CMND/CCCD</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="CMND/CCCD">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                      <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Địa chỉ thường trú</label>
+                                      <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Địa chỉ thường trú">
+                                      </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Nghề nghiệp</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Nghề nghiệp">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Giới tính</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control" name="sex" id="sex">
+                                            <option value="male">Nam</option>
+                                            <option value="female">Nữ</option>
+                                            <option value="female">Khác</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Tôn giáo</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Tôn giáo">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Quốc tịch</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Quốc tịch">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Số hộ chiếu</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Số hộ chiếu">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Địa chỉ tạm trú</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Địa chỉ tạm trú">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Thời gian bắt đầu tạm trú</label>
+                                    <div class="col-sm-9" >
+                                      <input type="date" class="form-control" id="exampleInputEmail2" placeholder="Thời gian bắt đầu tạm trú">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Lý do tạm trú</label>
+                                    <div class="col-sm-9">
+                                      <input type="text" class="form-control" id="exampleInputConfirmPassword2" placeholder="Lý do tạm trú">
+                                    </div>
+                                </div>
+                        <button type="submit" class="btn btn-primary me-2">Xác nhận</button>
+                        <button class="btn btn-light">Hủy bỏ</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script >
+        var menu_navbar = document.querySelectorAll("#dropdown > li");
+        menu_navbar.forEach((el, i) => {
+            el.addEventListener('click', function(){
+                var menu = document.querySelectorAll("#dropdown > li > ul");
+                for (var j = 0;j < menu.length;j++){
+                    menu[j].style.display = "none";
+                }
+                var currentMenu = el.querySelector("ul").style.display = 'inline-block';
+            });
+        });
+    </script>
+</body>
+</html>
