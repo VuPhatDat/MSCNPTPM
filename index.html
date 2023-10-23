@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Side Bar QLNK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="vertical-layout-light/style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i><a href="index.html" style="text-decoration: none;">QLNK</a>
+      </div>
+
+      <div class="search_bar">
+        <input type="text" placeholder="Search" />
+      </div>
+
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i class='bx bx-sun' id="darkLight"></i>
+        <i class='bx bx-bell' ></i>
+      </div>
+    </nav>
+
+
+    <nav class="sidebar1" >
+      <ul>
+        <li class="active">
+            <span><a href="#"><i class="bx bx-home-alt"></i>  Trang chủ</a></span>
+        <li>
+          <a href="#" class="feat-btn"><i class='bx bx-user-circle icon'></i>  Nhân khẩu
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+            <li><a href="themMoiNhanKhau.html">Thêm nhân khẩu</a></li>
+            <li><a href="tamTru.html">Đăng ký tạm trú</a></li>
+            <li><a href="tamVang.html">Đăng ký tạm vắng</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="serv-btn"><i class='bx bxs-user-plus icon'></i>  Hộ khẩu
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          
+        </li>
+        <li><a href="#"><i class='bx bx-bar-chart-alt-2 icon'></i>  Thống kê</a></li>
+        <li><a href="#"><i class='bx bx-book-content icon'></i>  Phản ánh</a></li>
+      </ul>
+    </nav>
+    
+    <div class="main-panel" style="margin-left: 250px;">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home-tab" >
+              <div class="tab-content tab-content-basic" >
+                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview" > 
+                  <div class="row" style="width: 150%;">
+                    <div class="col-lg-8 d-flex flex-column" >
+                      <div class="row flex-grow">
+                        <div class="col-12 grid-margin stretch-card">
+                          <div class="card card-rounded">
+                            <div class="card-body">
+                              <div class="d-sm-flex justify-content-between align-items-start">
+                                <div>
+                                  <h4 class="card-title card-title-dash">Thông tin nhân khẩu</h4>
+                                </div>
+                                <div>
+                                  <a href="themMoiNhanKhau.html"><button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button"><i class="mdi mdi-account-plus"></i>Thêm mới nhân khẩu</button></a>
+                                </div>
+                              </div>
+                              <div class="table-responsive  mt-1">
+                                <table class="table select-table">
+                                  <thead>
+                                    <tr>
+                                      <th>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </th>
+                                      <th>ID</th>
+                                      <th>Họ tên</th>
+                                      <th>Ngày sinh</th>
+                                      <th>Giới tính</th>
+                                      <th>Địa chỉ hiện nay</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                          <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex ">01</div>
+                                      </td>
+                                      <td>
+                                        <h6>Trần Thị A</h6>
+                                      </td>
+                                      <td>
+                                        <div>24-01-2003</div>
+                                      </td>
+                                      <td><div class="badge badge-opacity-warning">Nữ</div></td>
+                                      <td>Số 26, Phố Hai Bà Trưng, Quận Hoàn Kiếm, Tp Hà Nội</td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                          <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex ">01</div>
+                                      </td>
+                                      <td>
+                                        <h6>Trần Thị A</h6>
+                                      </td>
+                                      <td>
+                                        <div>24-01-2003</div>
+                                      </td>
+                                      <td><div class="badge badge-opacity-warning">Nữ</div></td>
+                                      <td>Số 26, Phố Hai Bà Trưng, Quận Hoàn Kiếm, Tp Hà Nội</td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                          <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex ">02</div>
+                                      </td>
+                                      <td>
+                                        <h6>Trần Thị A</h6>
+                                      </td>
+                                      <td>
+                                        <div>24-01-2003</div>
+                                      </td>
+                                      <td><div class="badge badge-opacity-warning">Nữ</div></td>
+                                      <td>Số 26, Phố Hai Bà Trưng, Quận Hoàn Kiếm, Tp Hà Nội</td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                          <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex ">03</div>
+                                      </td>
+                                      <td>
+                                        <h6>Trần Thị A</h6>
+                                      </td>
+                                      <td>
+                                        <div>24-01-2003</div>
+                                      </td>
+                                      <td><div class="badge badge-opacity-warning">Nữ</div></td>
+                                      <td>Số 26, Phố Hai Bà Trưng, Quận Hoàn Kiếm, Tp Hà Nội</td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="form-check form-check-flat mt-0">
+                                          <label class="form-check-label">
+                                          <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex ">04</div>
+                                      </td>
+                                      <td>
+                                        <h6>Trần Thị A</h6>
+                                      </td>
+                                      <td>
+                                        <div>24-01-2003</div>
+                                      </td>
+                                      <td><div class="badge badge-opacity-warning">Nữ</div></td>
+                                      <td>Số 26, Phố Hai Bà Trưng, Quận Hoàn Kiếm, Tp Hà Nội</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+      <!-- partial:partials/_footer.html -->
+      <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+         
+        </div>
+      </footer>
+      <!-- partial -->
+    </div>
+    <script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar1').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+  </body>
+</html>
