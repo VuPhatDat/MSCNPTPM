@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FontAwesome CSS-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/reflect.css">
+
+    <!-- Other CSS-->
+    <link rel="stylesheet" href="css/animsition.min.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index#">
+                            <img src="img/61a745a0d746a.png" alt="admin" width="48" height="48"
+                                class="rounded-circle me-2" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                Trang chủ</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="#">Dashboard 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboard 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboard 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboard 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Nhân khẩu</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Hộ Khẩu</a>
+                        </li>
+                        <li>
+                            <a href="#">Thống kê</a>
+                        </li>
+                        <li class="#">
+                            <a href="reflect.html">Phản ánh</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/61a745a0d746a.png" alt="admin" width="48" height="48" class="rounded-circle me-2" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list ">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">Trang chủ</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">Nhân khẩu</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Xem nhân khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thêm nhân khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sửa nhân khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xóa nhân khẩu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">Hộ khẩu</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Xem hộ khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thêm hộ khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sửa hộ khẩu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xóa hộ khẩu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="#">
+                            <a href="#">Thống kê</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="reflect.html">Phản ánh</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="reflect.html">Thêm mới phản ánh</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xử lý phản ánh</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="frmSearch"
+                                    placeholder="Tìm kiếm thông tin" />
+                                <button class="au-btn--submit" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="img/61a745a0d746a.png" alt="admin" class="rounded-circle me-2" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">admin</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="img/61a745a0d746a.png" class="rounded-circle me-2"
+                                                            alt="admin" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">admin</a>
+                                                    </h5>
+                                                    <span class="email">johndoe@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">Setting</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- END HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xxl-9 offset-xxl-1">
+                                <div class="table-responsive table--no-card m-b-30">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Họ và tên</th>
+                                                <th class="text-right">Nội dung</th>
+                                                <th class="text-right">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">hiện nay1 số cửa hnàg lấnáđâsd
+                                                    lạlfkáklfjalkfjkạlkfjậlksfjlak</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">Trong lúc lướt web, bạn bắt gặp một trang web sử
+                                                    dụng màu sắc rất đẹp và </td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Trịnh văn A</td>
+                                                <td class="text-right">phản ánh về vấn đề cá nhân</td>
+                                                <th class="text-right">Đã giải quyết</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2">
+                                <button type="button" class="btn btn-outline-secondary node1" data-bs-toggle="modal"
+                                    data-bs-target="#disablebackdrop">
+                                    Thêm mới
+                                </button>
+                                <div class="modal fade" id="disablebackdrop" tabindex="-1" data-bs-backdrop="false">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Thêm phản ánh</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label for="RID" class="col-form-label">ID:</label>
+                                                        <input type="text" class="form-control" id="RID">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="RName" class="col-form-label">Họ
+                                                            Tên:</label>
+                                                        <input type="text" class="form-control" id="RName">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="relflect-text" class="col-form-label">Phản
+                                                            ánh chi
+                                                            tiết:</label>
+                                                        <textarea class="form-control" id="reflect-text"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Hủy</button>
+                                                <button type="button" class="btn btn-primary">Gửi</button>
+                                            </div>
+
+                                        </div>
+                                    </div><!-- End Disabled Backdrop Modal-->
+                                </div>
+
+                                <button type="button" class="btn btn-secondary node2" data-bs-toggle="modal"
+                                    data-bs-target="#disablebackdrop">
+                                    Xử lý
+                                </button>
+                                <div class="modal fade" id="disablebackdrop" tabindex="-1" data-bs-backdrop="false">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Thêm phản ánh</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label for="RID" class="col-form-label">ID:</label>
+                                                        <input type="text" class="form-control" id="RID">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="RName" class="col-form-label">Họ
+                                                            Tên:</label>
+                                                        <input type="text" class="form-control" id="RName">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="relflect-text" class="col-form-label">Phản
+                                                            ánh chi
+                                                            tiết:</label>
+                                                        <textarea class="form-control" id="reflect-text"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Hủy</button>
+                                                <button type="button" class="btn btn-primary">Gửi</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- End Disabled Backdrop Modal-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Other JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <!-- Main JS-->
+    <script src="js/reflect.js"></script>
+</body>
+
+</html>
