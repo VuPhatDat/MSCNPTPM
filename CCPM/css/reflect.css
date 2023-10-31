@@ -28,7 +28,6 @@ body {
 }
 
 
-
 a {
     font-weight: bold;
     text-decoration: none;
@@ -113,6 +112,7 @@ section {
     padding-top: 116px;
     min-height: 100vh;
 }
+
 
   .node1, .node2{
     width: 120px;
@@ -855,6 +855,91 @@ section {
     right: 0;
 }
 
+/*--------------------------------------------------------------
+# Card_dashboard
+--------------------------------------------------------------*/
+.card {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+/*--------------------------------------------------------------
+# card SS
+--------------------------------------------------------------*/
+.card {
+    margin-top: 40px;
+  }
+  .card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+  
+  
+  .card .card-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .card .card-item img {
+    transition: 0.3s;
+  }
+  
+  /* .card .card-links {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+  }
+  
+  .card .card-links .preview-link,
+  .card .card-links .details-link {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    line-height: 1.2;
+    margin: 30px 8px 0 8px;
+  }
+  
+  .card .card-links .preview-link:hover,
+  .card .card-links .details-link:hover {
+    color: #fff;
+  }
+  
+  .card .card-links .details-link {
+    font-size: 30px;
+    line-height: 0;
+  }
+  
+  .card .card-item:hover .card-links {
+    opacity: 1;
+  }
+  
+  .card .card-item:hover .preview-link,
+  .card .card-item:hover .details-link {
+    margin-top: 0;
+  }
+  
+  .card .card-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .glightbox-clean .gslide-description {
+    background: #222425;
+  }
+  
+  .glightbox-clean .gslide-title {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+  }
+   */
 
 /* ----- Table ----- */
 .table {
